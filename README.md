@@ -1,7 +1,9 @@
 # tvp-downloader
-Download episodes from vod.tvp.pl
+[![PyPi version](https://img.shields.io/pypi/v/tvp-downloader.svg)](https://pypi.org/project/tvp-downloader/)
 
-Usage:
+> Download episodes from vod.tvp.pl
+
+### Usage:
 ```sh
 python tvp.py
 ```
