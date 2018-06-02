@@ -1,14 +1,14 @@
-# tvp-downloader
-[![PyPi version](https://img.shields.io/pypi/v/tvp-downloader.svg)](https://pypi.org/project/tvp-downloader/)
+# tvpdownloader
+[![PyPi version](https://img.shields.io/pypi/v/tvpdownloader.svg)](https://pypi.org/project/tvpdownloader/)
 
 > Download episodes from vod.tvp.pl
 
 ### Install:
 ```sh
-pip install tvp-downloader
+pip install tvpdownloader
 ```
 
 ### Usage:
 ```sh
-python tvp.py
+python tvpdownloader.py
 ```
