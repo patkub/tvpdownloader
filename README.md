@@ -10,5 +10,11 @@ pip install tvpdownloader
 
 ### Usage:
 ```sh
-python tvpdownloader.py
+python3 tvpdownloader.py
+```
+
+### Publishing:
+```sh
+python3 setup.py sdist
+twine upload dist/tvpdownloader-0.1.0.tar.gz
 ```
