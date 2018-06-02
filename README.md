@@ -3,6 +3,11 @@
 
 > Download episodes from vod.tvp.pl
 
+### Install:
+```sh
+pip install tvp-downloader
+```
+
 ### Usage:
 ```sh
 python tvp.py
