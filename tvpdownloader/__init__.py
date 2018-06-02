@@ -1,1 +1,1 @@
-name = "tvp-downloader"
+name = "tvpdownloader"
