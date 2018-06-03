@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tvpdownloader",
-    version="0.2.0",
+    version="0.3.0",
     author="Patrick Kubiak",
     author_email="pk9948@rit.edu",
     description="Download episodes from vod.tvp.pl",
