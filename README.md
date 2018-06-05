@@ -26,14 +26,14 @@ from tvpdownloader import *
 if __name__ == '__main__':
   # list of urls to download
   urls = [
-    "https://vod.tvp.pl/video/rodzinkapl,odc1,3994796",
-    "https://vod.tvp.pl/video/rodzinkapl,odc-221,34842411",
+    {"url": "https://vod.tvp.pl/video/rodzinkapl,odc1,3994796", "quality": 5},
+    {"url": "https://vod.tvp.pl/video/rodzinkapl,odc-221,34842411", "quality": 5},
   ]
 
-  for url in urls:
+  for u in urls:
     # download each url
-    print("Downloading " + url)
-    TVPDownloader(url).get()
+    print("Downloading: " + u['url'] + " Quality: " + str(u['quality']))
+    TVPDownloader(url=u['url'], quality=u['quality']).get()
 
   print("Done!")
 ```
